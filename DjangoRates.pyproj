@@ -64,6 +64,7 @@
     <Content Include="app\static\app\logo.png" />
     <Content Include="app\static\app\PoundHistorical.csv" />
     <Content Include="app\static\app\RubleHistorical.csv" />
+    <Content Include="app\static\web.config" />
     <Content Include="app\templates\app\euro.html" />
     <Content Include="app\templates\app\pound.html" />
     <Content Include="app\templates\app\ruble.html" />
