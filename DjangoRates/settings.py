@@ -26,7 +26,7 @@ SECRET_KEY = '86cf499e-2332-4d3b-8d46-ccf72def69e8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.getenv('ALLOWED_HOST'), '127.0.0.1', 'localhost', 'jangorates.azurewebsites.net']
+ALLOWED_HOSTS = ['jangorates.azurewebsites.net' ,os.getenv('ALLOWED_HOST'), '127.0.0.1', 'localhost', 'jangorates.azurewebsites.net']
 
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
