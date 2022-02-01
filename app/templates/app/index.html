@@ -1,0 +1,49 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+<br />
+<div class="container">
+    <div class="col-md-4">
+        <div class="row">
+            <h3>Ticker</h3>
+        </div>
+        <div class="row">
+            <p><a href="{% url 'euro' %}">EUR</a></p>
+        </div>
+        <div class="row">
+            <p><a href="{% url 'pound' %}">GBP</a></p>
+        </div>
+        <div class="row">
+            <p><a href="{% url 'ruble' %}">RUB</a></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <h3>Currency</h3>
+        </div>
+        <div class="row">
+            <p>Euro</p>
+        </div>
+        <div class="row">
+            <p>Sterling Pound</p>
+        </div>
+        <div class="row">
+            <p>Russian Ruble</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <h3>Exchange Rate</h3>
+        </div>
+        <div class="row">
+            <p style="text-align:right">${{Euro}}</p>
+        </div>
+        <div class="row">
+            <p style="text-align:right">${{Pound}}</p>
+        </div>
+        <div class="row">
+            <p style="text-align:right">${{Ruble}}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<br />
+<div class="container">
+    <b><h3>Euro Exchange Rate Projections (5 days)</h3></b>
+    <br />
+    <div class="col-md-4">
+        <div class="row">
+            <b>Days in the Future</b>
+        </div>
+        <div class="row">
+            <p>1</p>
+        </div>
+        <div class="row">
+            <p>2</p>
+        </div>
+        <div class="row">
+            <p>3</p>
+        </div>
+        <div class="row">
+            <p>4</p>
+        </div>
+        <div class="row">
+            <p>5</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <b>Exchange Rate</b>
+        </div>
+        <div class="row">
+            <p>{{one}}</p>
+        </div>
+        <div class="row">
+            <p>{{two}}</p>
+        </div>
+        <div class="row">
+            <p>{{three}}</p>
+        </div>
+        <div class="row">
+            <p>{{four}}</p>
+        </div>
+        <div class="row">
+            <p>{{five}}</p>
+        </div>
+    </div>
+    <br />
+    {{graph|safe}}
+</div>
+
+{% endblock %}

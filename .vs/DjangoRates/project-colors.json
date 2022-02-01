@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d85c690-c988-4892-ba06-c379216f96dc": {
+      "ProjectGuid": "0d85c690-c988-4892-ba06-c379216f96dc",
+      "DisplayName": "DjangoRates",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
