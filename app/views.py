@@ -42,7 +42,7 @@ def return_graph(data, name):
 
 def pound(request):
     assert isinstance(request, HttpRequest)
-    data = pd.read_csv("djangoratesip.azurewebsites.net/PoundHistorical.csv")
+    data = pd.read_csv("C:/Users/jszulew/source/repos/DjangoRates/DjangoRates/PoundHistorical.csv")
     x = data[["Open", "High", "Low"]]
     y = data["Close"]
     x = x.to_numpy()
@@ -110,7 +110,7 @@ def ruble(request):
 
 def euro(request):
     assert isinstance(request, HttpRequest)
-    data = pd.read_csv("djangoratesip.azurewebsites.net/EuroHistorical.csv")
+    data = pd.read_csv("C:/Users/jszulew/source/repos/DjangoRates/DjangoRates/PoundHistorical.csv")
     graph = return_graph(data, 'EUR - USD Exchange Rate')
     x = data[["Open", "High", "Low"]]
     y = data["Close"]

@@ -26,7 +26,7 @@ SECRET_KEY = '86cf499e-2332-4d3b-8d46-ccf72def69e8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['jangorates.azurewebsites.net','jangorates-dev.azurewebsites.net' ,os.getenv('ALLOWED_HOST'), '127.0.0.1', 'localhost', 'jangorates.azurewebsites.net']
+#ALLOWED_HOSTS = ['jangorates.azurewebsites.net','jangorates-dev.azurewebsites.net' ,os.getenv('ALLOWED_HOST'), '127.0.0.1', 'localhost', 'jangorates.azurewebsites.net']
 
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
@@ -112,4 +112,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
-STATICFILES_DIRS = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+#STATICFILES_DIRS = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
